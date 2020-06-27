@@ -1,61 +1,53 @@
-/* Cascading stylesheet for the website */
+body
+{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0px;
+}
+#topnav
+{
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  top: 0;
+  position: fixed;
+}
+#logo
+{
+  font-weight: bolder;
+  font-size: 25px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px ;
+  text-decoration: none;
+  font-size: 17px;
+}
 
-/* Text inside these asterisks and slashes are comments for human */
+#topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px ;
+  text-decoration: none;
+  font-size: 17px;
+}
 
-  a {
-    /* set the text color to blue here */
-    text-decoration: none; /* This means we do not want hyperlinks to be underlined */
-  }
+#topnav a:hover
+{
+  background-color: #ddd;
+  color: black;
+}
 
-  a:hover {
-    /* set the text color to red here */
-    text-decoration: none; /* This means we do not want hyperlinks to be underlined */
-  }
+#topnav a.active
+{
+  background-color: #4CAF50;
+  color: white;
+}
 
-  body {
-    /* set the background color here */
-    /* set the text color to black here */
-    /* set the font here */
-    /* set the text alignment here */
-   }
-
-  footer {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  h1 {
-    margin-bottom: 0.5rem;
-    margin-top: 3rem;
-   }
-
-  h2 {
-    /* set the text color of to #075AAB here */
-    /* set both the bottom margin and top margin to 2.5rem here */
-   }
-
-  h3 {
-    margin-bottom: 0;
-    margin-top: 2rem;
-  }
-
-  h4 {
-    margin-bottom: 1rem;
-    margin-top: 0.5rem;
-  }
-
-  h5 {
-    margin-top: 0.5rem;
-  }
-
-  hr {
-    margin-bottom: 3rem;
-    margin-top: 3rem;
-  }
-
-  /* this controls how the bullet points in the resume page looks */
-  ul {
-    display: table;
-    margin: 0 auto;
-    text-align: left;
-  }
+#banner
+{
+  background-image: url("/rishab310.github.io/images/banner.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 60vh;
+}
