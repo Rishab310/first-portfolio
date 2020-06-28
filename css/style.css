@@ -41,7 +41,7 @@ body
 #header img
 {
   width: 100%;
-/*   height: auto; */
-  min-height: 30vh;
-  max-height: 75vh;
+  height: auto;
+/*   min-height: 50vh;
+  max-height: 75vh; */
 }
