@@ -1,0 +1,38 @@
+/* SOCIAL MEDIA ICONS TO BE ADDED LATER */
+#Connect {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  list-style-type: none;
+}
+
+#Connect a {
+  margin: 5vh;
+  padding: 10px;
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  border-radius: 50%;
+}
+
+#Connect .fa:hover {
+  opacity: 0.7;
+  padding: 15px;
+  margin: 5px;
+  transition: linear 0.3s;
+}
+
+.fa-instagram {
+  background: #f3197e;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: white;
+  color: black;
+}
