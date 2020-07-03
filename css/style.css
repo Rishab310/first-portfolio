@@ -13,15 +13,15 @@ a {
   text-decoration: none;
 }
 /* ALL MIN CSS */
-.bold{ font-weight: bold;} .heading{font-size: 1.5em;text-transform: capitalize;font-weight: bolder;} .disc-text{font-family: box; font-size: 1.2rem;}
+.bold {font-weight: bold;}.heading {font-size: 1.5em;text-transform: capitalize;font-weight: bolder;}.discription-text {font-family: box;font-size: 1.2rem;}.left {text-align: left;}.right {text-align: right;}.center {text-align: center;}.uniform {text-align: justify;}.bloc{display: block;}
+
 /* NAVIGATION MENU */
 #myTopNav {
   overflow: hidden;
   background-color: #333;
   width: 100%;
-  top: 0;
+  height: 50px;
   position: fixed;
-  transition: 0.4s;
 }
 
 #logo {
@@ -62,23 +62,27 @@ a {
 
 .icon:hover {
   background-color: #ddd;
+  cursor: pointer;
   color: black;
 }
 
 /* SOCIAL MEDIA ICONS */
-.Connect{
+.Connect {
   float: right;
+  display: block;
   margin: 3px;
   margin-right: 25px;
+  overflow: hidden;
 }
 .Connect i {
   padding: 7px;
-  margin: 5px;
+  margin: 3px;
   height: 25px;
   width: 25px;
   font-size: 25px;
   border-radius: 50%;
   margin-left: 15px;
+  overflow: hidden;
 }
 .fa-instagram {
   background: #f3197e;
@@ -95,18 +99,47 @@ a {
 .fa-instagram:hover {
   background: white;
   color: #f3197e;
-  transition:ease-in-out 0.4s;
+  transition: ease-in-out 0.4s;
 }
 .fa-linkedin:hover {
   background: white;
   color: #007bb5;
-  transition:ease-in-out 0.4s;
+  transition: ease-in-out 0.4s;
 }
 .fa-github:hover {
   background: black;
   color: white;
-  transition:ease-in-out 0.4s;
+  transition: ease-in-out 0.4s;
 }
+
+@media screen and (max-width: 600px) {
+  .icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  #myTopNav{
+    overflow: hidden;
+  }
+  .Connect {
+    float: none;
+    text-align: left;
+    padding-left: 10px;
+  }
+  #logo {
+    display: block;
+    float: none;
+    text-align: left;
+  }
+  .response .navigation {
+    display: block;
+    float: none;
+    text-align: left;
+    padding-left: 30px;
+  }
+}
+
 .container {
   margin: auto;
   margin-top: 30px;
@@ -115,4 +148,3 @@ a {
   width: 60%;
   border-radius: 20px;
 }
-
