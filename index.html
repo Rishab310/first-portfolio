@@ -13,9 +13,10 @@
   <title>Rishab Goyal's Portal</title>
   </head>
   <body>
-      <nav id="myTopNav" class="topnav">
+    <!-- TOP NAVIGATION/MENU BAR -->
+      <nav id="myTopNav" class="topnav box">
         <div id="catch" class="response">
-          <span id="logo">&lt/&gt</span>
+          <span id="logo" >&lt/&gt RISHAB GOYAL </span>
           <a href="index.html" class="navigation"> HOME <i class="fa fa-fw fa-home"></i></a>
           <a href="About.html" class="navigation"> ABOUT</a>
           <a href="Contact" class="navigation"> Contact <i class="fa fa-fw fa-envelope"></i></a>
@@ -25,26 +26,41 @@
             <a href="https://www.github.com/Rishab310?tab=repositories" target="_blank"><i class="fa fa-github fa-fw"></i></a>
           </div>
         </div>
+        <!-- MENU BUTTON FOR DEVICES WITH SMALLER SCREENS -->
         <a id="navbut" class="icon" onclick="myFuction()"><i class="fa fa-bars"></i></a>
-      </nav><br><br>
+      </nav>
+      <!-- MAIN HEADER IMAGE -->
     <div id="header">
-      <img src="images/New_Header.jpg" alt="Header_Image" width="100%" height="auto">
+      <img  id="head-img" src="images/backimg.jpg" alt="Header_Image" width="100%" height="auto">
     </div>
+    <!-- MAIN TEXT WITH ABOUT INFO -->
     <div class="container discription-text">
-     <p>Hello Guy's I am <span class="heading">Rishab Goyal</span></p>
-      <div>
-        <h3 class="left"> About Me</h3>
-        <p class="uniform">I am a student and developer in Indore,India.I am pursuing BTech in Information Technology form SGSITS,Indore.I am an aspiring developer and i know several languages like HTML ,CSS ,JavaScript ,Java and Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nostrum provident veritatis. Optio ratione neque, vero suscipit placeat cupiditate repudiandae porro minus. Voluptatum debitis culpa vitae architecto, molestiae dolorem unde! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, pariatur? </p>
+        <h2 class="heading center"> About Me</h2>
+      <div id="flex-container">
+        <div>
+          <!-- MY IMAGE TO BE ADDED  -->
+          <!-- <img src="" alt=""> -->
+        </div>
+        <!-- TEXT INFO -->
+        <div>
+          <p class="uniform">I am a student and developer in Indore,India.I am pursuing BTech in Information Technology form SGSITS,Indore.I am an aspiring developer and i know several languages like HTML ,CSS ,JavaScript ,Java and Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nostrum provident veritatis. Optio ratione neque, vero suscipit placeat cupiditate repudiandae porro minus. Voluptatum debitis culpa vitae architecto, molestiae dolorem unde! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, pariatur? </p>
+        </div>
       </div>
     </div>
-    <h2>Credentials and Portfolio</h2>
-    <p>My Resume | My GitHub</p>
-    <h2>Contact</h2>
-    <p>Email: rishabgoyal432@gmail.com</p>
+    <div class="container">
+      <h2>Credentials and Portfolio</h2>
+      <p>My Resume | My GitHub</p>
+    </div>
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: rishabgoyal432@gmail.com</p>
+    </div>
+    <!-- SCROLL TO TOP BUTTON -->
+    <a href="#header" id="to-top"><i class="fa fa-arrow-circle-up"></i></a>
       <script src="js/main.js"></script>
   </body>
   <footer>
     <hr>
-    <code>Copyright (c) 2020 Rishab Goyal</code>
+    <code class="discription-text" style="padding-left: 30px;">Copyright (c) 2020 Rishab Goyal</code>
   </footer>
 </html>
