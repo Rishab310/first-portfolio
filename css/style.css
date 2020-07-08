@@ -11,7 +11,7 @@ body , footer {
 
 @font-face {
   font-family: box;
-  src: url(/rishab310.github.io/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+  src: url(/fonts/Titillium_Web/TitilliumWeb-Regular.ttf );
 }
 a {
   text-decoration: none;
