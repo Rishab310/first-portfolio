@@ -1,28 +1,61 @@
 /* SOME GENERAL CSS COMMON TO THE PAGE */
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-body , footer {
-  font-family:   box,sans-serif;
+body,
+footer {
+  font-family: box, sans-serif;
   margin: 0px;
-  background-color:#00000009;
+  background-color: #00000009;
   /* text-align: center; */
 }
 
 @font-face {
   font-family: box;
-  src: url(/fonts/Titillium_Web/TitilliumWeb-Regular.ttf );
+  src: url(/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
 }
 a {
   text-decoration: none;
 }
 /* ALL MIN CSS */
-.bold {font-weight: bold;}.heading {font-size: 1.5em;text-transform: capitalize;font-weight: bolder;text-decoration: underline;}.discription-text {font-family: box;font-size: 1.1rem;}.left {text-align: left;}.right {text-align: right;}.center {text-align: center;}.uniform {text-align: justify;}.block{display: block;}.box{font-family: box;}
+.bold {
+  font-weight: bold;
+}
+.heading {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.discription-text {
+  font-family: box;
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 400;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.uniform {
+  text-align: justify;
+}
+.block {
+  display: block;
+}
+.box {
+  font-family: box;
+}
 
 /* NAVIGATION MENU */
 #myTopNav {
   overflow: hidden;
-  background-color:#000000ce;
+  background-color: #000000ce;
   width: 100%;
   height: 50px;
   position: fixed;
@@ -122,7 +155,7 @@ a {
     top: 0;
     right: 0;
   }
-  #myTopNav{
+  #myTopNav {
     overflow: hidden;
   }
   .Connect {
@@ -165,10 +198,6 @@ a {
   transition: 0.4s;
 }
 
-/* .abt {
-  padding-left: 0px;
-} */
-
 .container:hover {
   margin-top: 25px;
 }
@@ -184,7 +213,7 @@ a {
 
 .container-grid {
   display: grid;
-  grid-template-columns: 0.7fr 1.5fr ;
+  grid-template-columns: 0.7fr 1.5fr;
 }
 
 .container-grid #img-div {
@@ -205,7 +234,7 @@ a {
   line-height: 2;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width: 700px) {
   .container-grid {
     display: block;
   }
@@ -214,11 +243,18 @@ a {
   }
 }
 
-#to-top{
+#to-top {
   position: fixed;
   color: #05040aab;
   text-align: left;
   font-size: 2em;
   bottom: 30px;
   left: 20px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.91);
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding: 10px;
 }
